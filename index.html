@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BENSENSMP – Bewerbung</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+    <nav class="navigation">
+
+        <div class="logo">
+            BENSENSMP
+        </div>
+
+        <div class="nav-links">
+            <a href="#start">Start</a>
+            <a href="#projekt">Das Projekt</a>
+            <a href="#bewerbung">Bewerbung</a>
+        </div>
+
+    </nav>
+
+    <section id="start" class="hero-content">
+
+        <p class="small-title">
+            DIE BEWERBUNGSPHASE HAT BEGONNEN
+        </p>
+
+        <h1>
+            BENSENSMP
+        </h1>
+
+        <p class="hero-text">
+            Gemeinsam bauen wir eine riesige Mega-Base
+            und werden die reichsten Minecraft-Spieler!
+        </p>
+
+        <a class="main-button" href="#bewerbung">
+            Jetzt bewerben
+        </a>
+
+
+
+
+
+
+
+    </section>
+
+</header>
+
+<main>
+
+    <section id="projekt" class="section">
+
+        <p class="section-label">
+            UNSER ZIEL
+        </p>
+
+        <h2>
+            Ein gemeinsames Minecraft-Abenteuer
+        </h2>
+
+        <p class="section-description">
+            Auf dem BENSENSMP wollen wir gemeinsam viel erleben,
+            eine riesige Mega-Base bauen und die reichsten
+            Minecraft-Spieler werden.
+        </p>
+
+        <div class="cards">
+
+            <article class="card">
+
+                <div class="card-icon">
+                    👥
+                </div>
+
+                <h3>
+                    14 Spieler
+                </h3>
+
+                <p>
+                    Aus allen Bewerbungen werden 14 Spieler ausgewählt.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <div class="card-icon">
+                    💎
+                </div>
+
+                <h3>
+                    Reichster Spieler
+                </h3>
+
+                <p>
+                    Gemeinsam wollen wir die reichsten Minecraft-Spieler werden.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <div class="card-icon">
+                    🏰
+                </div>
+
+                <h3>
+                    Eine Mega-Base
+                </h3>
+
+                <p>
+                    Gemeinsam bauen wir eine riesige Mega-Base.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section id="bewerbung" class="application-section">
+
+        <div class="application-box">
+
+            <p class="section-label">
+                BEWIRB DICH JETZT
+            </p>
+
+            <h2>
+                Werde Teil des BENSENSMP
+            </h2>
+
+            <p>
+                Du hast zwei Wochen Zeit, dich zu bewerben.
+                Insgesamt werden höchstens 28 Bewerbungen angenommen.
+                Aus diesen Bewerbungen werden 14 Spieler ausgewählt.
+            </p>
+
+            <form
+                    id="applicationForm"
+                    action="https://formspree.io/f/xbdnjyjr"
+                    method="POST"
+            >
+
+                <label for="minecraftName">
+                    Minecraft-Name
+                </label>
+
+                <input
+                        id="minecraftName"
+                        name="minecraftName"
+                        type="text"
+                        placeholder="Dein Minecraft-Name"
+                        required
+                >
+
+                <label for="discord">
+                    Discord-Benutzername
+                </label>
+
+                <input
+                        id="discord"
+                        name="discord"
+                        type="text"
+                        placeholder="z. B. benkonstantin"
+                        required
+                >
+
+                <label for="age">
+                    Alter
+                </label>
+
+                <input
+                        id="age"
+                        name="age"
+                        type="number"
+                        placeholder="Dein Alter"
+                        min="8"
+                        max="99"
+                        required
+                >
+
+                <label for="country">
+                    Land
+                </label>
+
+                <input
+                        id="country"
+                        name="country"
+                        type="text"
+                        placeholder="Deutschland"
+                        required
+                >
+
+                <label for="microphone">
+                    Hast du ein Mikrofon?
+                </label>
+
+                <select
+                        id="microphone"
+                        name="microphone"
+                        required
+                >
+                    <option value="">Bitte auswählen</option>
+                    <option value="Ja">Ja</option>
+                    <option value="Nein">Nein</option>
+                </select>
+
+                <label for="activity">
+                    Wie oft spielst du Minecraft?
+                </label>
+
+                <select
+                        id="activity"
+                        name="activity"
+                        required
+                >
+                    <option value="">Bitte auswählen</option>
+                    <option value="Täglich">Täglich</option>
+                    <option value="Mehrmals pro Woche">
+                        Mehrmals pro Woche
+                    </option>
+                    <option value="1–2 Mal pro Woche">
+                        1–2 Mal pro Woche
+                    </option>
+                    <option value="Selten">Selten</option>
+                </select>
+
+                <label for="strength">
+                    Was kannst du besonders gut?
+                </label>
+
+                <select
+                        id="strength"
+                        name="strength"
+                        required
+                >
+                    <option value="">Bitte auswählen</option>
+                    <option value="Bauen">Bauen</option>
+                    <option value="Redstone">Redstone</option>
+                    <option value="PvP">PvP</option>
+                    <option value="Farmen">Farmen</option>
+                    <option value="Alles ein bisschen">
+                        Alles ein bisschen
+                    </option>
+                </select>
+
+                <label for="reason">
+                    Warum sollten wir dich auswählen?
+                </label>
+
+                <textarea
+                        id="reason"
+                        name="reason"
+                        placeholder="Erzähle uns, warum du beim BENSENSMP dabei sein solltest."
+                        required
+                ></textarea>
+
+                <button type="submit">
+                    Bewerbung absenden
+                </button>
+
+            </form>
+
+            <p id="message"></p>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>
+        © 2026 BENSENSMP
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
